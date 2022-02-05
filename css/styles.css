@@ -1,2 +1,76 @@
 :root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color-white: #ffffff;
+  --links-footer-color: rgba(255, 255, 255, 0, 6);
+  --hero-background-grey: #2f303a;
+  --btn-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--background-color-white);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Header contacts */
+.header-contacts a {
+  color: var(--secondary-text-color);
+}
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* Button */
+.button.main {
+  color: var(--background-color-white);
+  background-color: var(--accent-color);
+}
+.button.portfolio {
+  color: var(--primary-text-color);
+  background-color: var(--btn-background-color);
+}
+/* Hero */
+.hero-title {
+  background-color: var(--hero-background-grey);
+  color: var(--background-color-white);
+}
+
+/* Section first */
+.section-list .title {
+  color: var(--primary-text-color);
+}
+.section-list .info-title {
+  color: var(--secondary-text-color);
+}
+
+/* Activity*/
+.activity {
+  color: var(--primary-text-color);
+}
+.team-info .worker {
+  color: var(--primary-text-color);
+}
+.team-info .profession {
+  color: var(--secondary-text-color);
 }
