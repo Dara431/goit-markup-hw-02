@@ -29,7 +29,7 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -41,10 +41,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.site-nav a {
+  text-decoration: none;
+}
 
 /* Header contacts */
 .header-contacts a {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 .header-contacts a:hover,
 .header-contacts a:focus {
@@ -195,6 +199,7 @@ body {
   line-height: 1.2;
   color: var(--secondary-text-color);
 }
+
 /* footer*/
 
 .info {
@@ -218,4 +223,7 @@ body {
 .contact-info a:hover,
 .contact-info a:focus {
   color: var(--accent-color);
+}
+.contact-info a {
+  text-decoration: none;
 }
