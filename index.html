@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -33,7 +39,7 @@
       <section>
         <h2 hidden>Детали секции</h2>
 
-        <ul class="section-list">
+        <ul class="section-list list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
             <p class="info-title">
@@ -79,26 +85,26 @@
         </ul>
       </section>
 
-      <section>
+      <section class="section-team">
         <h2 class="our-team">Наша команда</h2>
         <ul class="team-info list">
-          <li>
-            <img src="./images/ihor1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+          <li class="team-worker">
+            <img src="./images/ihor1.jpg" alt="Фото работника" width="270" height="260" />
             <h3 class="worker">Игорь Демьяненко</h3>
             <p class="profession">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/olha1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+          <li class="team-worker">
+            <img src="./images/olha1.jpg" alt="Фото работника" width="270" height="260" />
             <h3 class="worker">Ольга Репина</h3>
             <p class="profession">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/nick1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+          <li class="team-worker">
+            <img src="./images/nick1.jpg" alt="Фото работник" width="270" height="260" />
             <h3 class="worker">Николай Тарасов</h3>
             <p class="profession">Marketing</p>
           </li>
-          <li>
-            <img src="./images/mick1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+          <li class="team-worker">
+            <img src="./images/mick1.jpg" alt="Фото работника" width="270" height="260" />
             <h3 class="worker">Михаил Ермаков</h3>
             <p class="profession">UI Designer</p>
           </li>
@@ -106,15 +112,17 @@
       </section>
     </main>
 
-    <footer>
-      <a href="/"><img src="./images/logo.svg" alt="Logo" /></a>
-      <address>
-        <ul>
+    <footer class="site-footer">
+      <a href="/"><img src="./images/WebStudio.svg" alt="Logo" /></a>
+      <address class="info">
+        <ul class="contact-info list">
           <li>
-            <a href="https://goo.gl/maps/gQr4hHUSBrAV48xG7">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="https://goo.gl/maps/gQr4hHUSBrAV48xG7" class="info-map"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="information">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="information">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
